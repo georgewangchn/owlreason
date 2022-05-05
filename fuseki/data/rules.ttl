@@ -1,0 +1,4 @@
+@prefix : <https://xxx/pet.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+[rule1: (?p :contain ?m),(?m :contain ?g) -> (?p :contain ?g)]
+  
