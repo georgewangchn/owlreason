@@ -37,7 +37,7 @@ PREFIX tdb2:    <http://jena.apache.org/2016/tdb#>
      ja:baseModel :tdbGraph ;
      ja:reasoner [
          ja:reasonerURL <http://jena.hpl.hp.com/2003/GenericRuleReasoner> ;
-		 ja:rulesFromURL <file:///data/rules.ttl>  ;
+		 ja:rulesFrom <file:data/rules.ttl>  ;
      ] .
 
 :tdbGraph rdf:type tdb2:GraphTDB2 ;
